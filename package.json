@@ -1,23 +1,26 @@
 {
-  "name": "weplan",
+  "name": "oauth-playlist",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NuzhatSiddiqi/weplan.git"
+    "url": "git+https://github.com/NuzhatSiddiqi/oauth-playlist.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NuzhatSiddiqi/weplan/issues"
+    "url": "https://github.com/NuzhatSiddiqi/oauth-playlist/issues"
   },
-  "homepage": "https://github.com/NuzhatSiddiqi/weplan#readme",
-  "dependencies": {
-    "ejs": "^2.6.2",
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/NuzhatSiddiqi/oauth-playlist#readme"
 }
